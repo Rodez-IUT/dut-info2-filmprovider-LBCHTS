@@ -1,9 +1,9 @@
 # DUT Info2 - FilmProvider
 
-### NOM : DOE
-### Prénom : John
+### NOM : BEAUCHAINTS
+### Prénom : Loïc
 ### Groupe de TP : 
-- [x] 1
+- [x] A
 
 ### 0. Création et initialisation du projet "FilmProvider"
 
