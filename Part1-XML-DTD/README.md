@@ -3,7 +3,7 @@
 ## Exercice XML1 - Document XML Bien Formé
 
 La société FilmProvider est spécialisée dans la publication d’informations sur les films cinématographiques. 
-Pour communiquer facilement avec ses partenaires (vidéo club, ciné-club...), FilmProvider décide de publier ses 
+Po``````ur communiquer facilement avec ses partenaires (vidéo club, ciné-club...), FilmProvider décide de publier ses 
 informations au format XML.
 FilmProvider ne possède pas d'outil spécialisé et le service chargé de la conception fait une maquette dans un éditeur 
 de texte. Comment vérifier que cette maquette est un document XML bien formé ?
