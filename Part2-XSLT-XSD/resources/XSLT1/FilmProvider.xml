@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE films [
 
-        <!ELEMENT films (realisateur|film)*>
+        <!ELEMENT films (realisateur+,film+)>
         <!ELEMENT realisateur (prenom, nom)>
         <!ATTLIST realisateur id_realisateur ID #REQUIRED>
         <!ELEMENT prenom (#PCDATA)>
@@ -10,7 +10,7 @@
         <!ATTLIST film
                 id_film         ID #REQUIRED
                 id_realisateur  IDREF #REQUIRED
-                annee           CDATA #REQUIRED>
+                annee           NMTOKEN #REQUIRED>
         <!ELEMENT titre (#PCDATA)>
         <!ELEMENT resume (image?,text)>
         <!ELEMENT image EMPTY>
