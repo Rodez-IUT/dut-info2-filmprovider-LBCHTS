@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE films [
+
+        <!ELEMENT films (realisateur|film)*>
+        <!ELEMENT realisateur (prenom, nom)>
+        <!ATTLIST realisateur id_realisateur ID #REQUIRED>
+        <!ELEMENT prenom (#PCDATA)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT film (titre,resume)>
+        <!ATTLIST film
+                id_film         ID #REQUIRED
+                id_realisateur  IDREF #REQUIRED
+                annee           CDATA #REQUIRED>
+        <!ELEMENT titre (#PCDATA)>
+        <!ELEMENT resume (image?,text)>
+        <!ELEMENT image EMPTY>
+        <!ATTLIST image source CDATA #REQUIRED>
+        <!ELEMENT text (#PCDATA) >
+        ]>
 <films>
     <realisateur id_realisateur="real_01">
         <prenom>Martin</prenom>
