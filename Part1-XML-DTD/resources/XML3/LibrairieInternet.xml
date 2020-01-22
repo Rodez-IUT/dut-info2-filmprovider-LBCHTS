@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE librairie SYSTEM "Part1-XML-DTD/resources/XML3/Librairie.dtd">
+
+<librairie>
+    <entete>
+        <text>
+            <strong>Librairie d'Internet</strong>
+            <em>La passion de la lecture</em>
+            &amp;copyright;
+        </text>
+    </entete>
+    <livres>
+        <livre isbn="978-1546394075">
+            <titre>Joue-moi du Chopin</titre>
+            <auteurs>
+                <auteur>
+                    <nom>Vox</nom>
+                    <prenom>Max</prenom>
+                </auteur>
+            </auteurs>
+            <description>
+                Après un incendie dévastateur, Dale Lusk se présente à la porte de sa sœur
+                avec rien d’autre qu’un caleçon et un imperméable, ayant désespérément besoin de son aide.
+                Ayant perdu à la fois son restaurant et son domicile, Dale se retrouve sans travail,
+                ni endroit pour vivre. Pendant qu’elle pousse son frère à acheter une nouvelle garde-robe
+                pour mieux correspondre à son air de mannequin, Chrissie présente Dale à Al Borkowski.
+                Al est désespérément à la recherche d’un colocataire afin d’éviter que sa grand-mère contrôle
+                davantage sa vie. Chrissie se rend compte, lorsqu’elle réunit les deux hommes,
+                que des étincelles jaillissent et que des changements se profilent dans leur vie.
+            </description>
+            <prix devise="" type="TTC" tva="5.5">15.59</prix>
+        </livre>
+
+        <livre isbn="978-1546394075">
+            <titre>Les Voraces</titre>
+            <auteurs>
+                <auteur>
+                    <nom>Jauvert</nom>
+                    <prenom>Vincent</prenom>
+                </auteur>
+            </auteurs>
+            <description>
+                amais sous la Ve République les élites qui dirigent notre pays n'ont été aussi riches et obnubilées par
+                l'argent.
+                Jamais autant de hauts fonctionnaires n'ont pantouflé à prix d'or dans le privé.
+                Jamais autant de ministres n'ont été multimillionnaires.
+                Jamais autant de responsables politiques, et non des moindres, ne sont devenus lobbyistes ou avocats
+                d'affaires...
+                Comment en est-on arrivé là ? Pourquoi la situation a-t-elle empiré sous Macron ?
+                Après deux ans d'enquête et grâce à une quarantaine de témoignages inédits, Vincent Jauvert révèle les
+                moeurs de ces élites si voraces qui ont pris le pouvoir dans le sillage du nouveau président de la
+                République.
+                Il décrit leur course à l'argent, leurs campagnes en coulisses pour dissimuler leurs véritables revenus
+                et
+                leurs conflits d'intérêts. Un document implacable.
+            </description>
+            <prix devise="euro" type="TTC" tva="5.5">19</prix>
+        </livre>
+
+        <livre isbn="978-1546394075">
+            <titre>Joue-moi du Chopin</titre>
+            <auteurs>
+                <auteur>
+                    <nom>Vox</nom>
+                    <prenom>Max</prenom>
+                </auteur>
+            </auteurs>
+            <description>
+                Après un incendie dévastateur, Dale Lusk se présente à la porte de sa sœur
+                avec rien d’autre qu’un caleçon et un imperméable, ayant désespérément besoin de son aide.
+                Ayant perdu à la fois son restaurant et son domicile, Dale se retrouve sans travail,
+                ni endroit pour vivre. Pendant qu’elle pousse son frère à acheter une nouvelle garde-robe
+                pour mieux correspondre à son air de mannequin, Chrissie présente Dale à Al Borkowski.
+                Al est désespérément à la recherche d’un colocataire afin d’éviter que sa grand-mère contrôle
+                davantage sa vie. Chrissie se rend compte, lorsqu’elle réunit les deux hommes,
+                que des étincelles jaillissent et que des changements se profilent dans leur vie.
+            </description>
+            <prix devise="euro" type="TTC" tva="5.5">15.59</prix>
+        </livre>
+
+        <livre isbn="978-1546394075">
+            <titre>Joue-moi du Chopin</titre>
+            <auteurs>
+                <auteur>
+                    <nom>Vox</nom>
+                    <prenom>Max</prenom>
+                </auteur>
+            </auteurs>
+            <description>
+                Après un incendie dévastateur, Dale Lusk se présente à la porte de sa sœur
+                avec rien d’autre qu’un caleçon et un imperméable, ayant désespérément besoin de son aide.
+                Ayant perdu à la fois son restaurant et son domicile, Dale se retrouve sans travail,
+                ni endroit pour vivre. Pendant qu’elle pousse son frère à acheter une nouvelle garde-robe
+                pour mieux correspondre à son air de mannequin, Chrissie présente Dale à Al Borkowski.
+                Al est désespérément à la recherche d’un colocataire afin d’éviter que sa grand-mère contrôle
+                davantage sa vie. Chrissie se rend compte, lorsqu’elle réunit les deux hommes,
+                que des étincelles jaillissent et que des changements se profilent dans leur vie.
+            </description>
+            <prix devise="euro" type="HT" tva="5.5">15.59</prix>
+        </livre>
+
+        <livre isbn="978-1546394075">
+            <titre>Joue-moi du Chopin</titre>
+            <auteurs>
+                <auteur>
+                    <nom>Vox</nom>
+                    <prenom>Max</prenom>
+                </auteur>
+            </auteurs>
+            <description>
+                Après un incendie dévastateur, Dale Lusk se présente à la porte de sa sœur
+                avec rien d’autre qu’un caleçon et un imperméable, ayant désespérément besoin de son aide.
+                Ayant perdu à la fois son restaurant et son domicile, Dale se retrouve sans travail,
+                ni endroit pour vivre. Pendant qu’elle pousse son frère à acheter une nouvelle garde-robe
+                pour mieux correspondre à son air de mannequin, Chrissie présente Dale à Al Borkowski.
+                Al est désespérément à la recherche d’un colocataire afin d’éviter que sa grand-mère contrôle
+                davantage sa vie. Chrissie se rend compte, lorsqu’elle réunit les deux hommes,
+                que des étincelles jaillissent et que des changements se profilent dans leur vie.
+            </description>
+            <prix devise="euro" type="HT" tva="5.5">15.59</prix>
+        </livre>
+    </livres>
+</librairie>

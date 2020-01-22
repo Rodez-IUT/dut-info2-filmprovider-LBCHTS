@@ -1,34 +1,39 @@
+<?xml version="1.0"?>
 <!ELEMENT librairie (entete,livres) >
 
 
         <!ELEMENT entete (text)* >
-        <!ELEMENT text (#PCDATA | strong | em | img)*>
+        <!ELEMENT text %contenu;>
         <!ELEMENT strong (#PCDATA)>
         <!ELEMENT em (#PCDATA)>
-        <!ELEMENT img (#PCDATA)>
+        <!ELEMENT img EMPTY>
         <!ATTLIST img
                 src   CDATA #REQUIRED
                 title CDATA>
 
 
         <!ELEMENT livres (livre)* >
-        <!ELEMENT livre (titre, auteurs, description, prix, isbn) >
+        <!ELEMENT livre (titre, auteurs, description, prix) >
+        <!ATTLIST livre
+                isbn NMTOKENS #REQUIRED>
         <!ELEMENT titre (#PCDATA)>
-        <!ELEMENT auteurs (auteur)* | (groupe)* >
-        <!ELEMENT auteur (nom, prenom?)>
+        <!ELEMENT auteurs (auteur)* | (collectif) >
+        <!ELEMENT auteur %infosAuteur;>
         <!ELEMENT nom (#PCDATA)>
         <!ELEMENT prenom (#PCDATA)>
-        <!ELEMENT groupe (direction, membres)*>
-        <!ELEMENT direction (nom, prenom?)>
+        <!ELEMENT collectif (direction, membres)>
+        <!ELEMENT direction %infosAuteur;>
         <!ELEMENT membres (#PCDATA)>
-        <!ELEMENT description (#PCDATA | strong | em | img)*>
+        <!ELEMENT description %contenu;>
         <!ELEMENT prix (#PCDATA)>
         <!ATTLIST prix
-                devise (euro | livre | dollar) #REQUIRED "euro"
-                type   (HT | TTC)              #REQUIRED "HT"
-                tva                            #FIXED    "5.5"
-        <!ELEMENT isbn (#PCDATA)>
-        <!ATTLIST isbn
-                xml:space #FIXED "default"
+                devise (euro | livre | dollar) "euro"
+                type   (HT | TTC)              "HT"
+                tva                  #FIXED    "5.5">
+
+        <!ENTITY  copyright "&copy;Librairie &amp; Internet 2020" >
+        <!ENTITY % infosAuteur "(nom, prenom?)" >
+        <!ENTITY % contenu     "(#PCDATA | strong | em | img)*" >
+
 
 
