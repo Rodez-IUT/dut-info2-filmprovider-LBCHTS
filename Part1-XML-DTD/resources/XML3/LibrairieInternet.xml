@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE librairie SYSTEM "Part1-XML-DTD/resources/XML3/Librairie.dtd">
+<!DOCTYPE librairie SYSTEM "Librairie.dtd">
 
 <librairie>
     <entete>
@@ -28,10 +28,10 @@
                 davantage sa vie. Chrissie se rend compte, lorsqu’elle réunit les deux hommes,
                 que des étincelles jaillissent et que des changements se profilent dans leur vie.
             </description>
-            <prix devise="" type="TTC" tva="5.5">15.59</prix>
+            <prix devise="euro" type="TTC" tva="5.5">15.59</prix>
         </livre>
 
-        <livre isbn="978-1546394075">
+        <livre isbn="978-2221220184">
             <titre>Les Voraces</titre>
             <auteurs>
                 <auteur>
@@ -54,70 +54,82 @@
                 et
                 leurs conflits d'intérêts. Un document implacable.
             </description>
-            <prix devise="euro" type="TTC" tva="5.5">19</prix>
+            <prix devise="euro" type="TTC" tva="5.5">19.00</prix>
         </livre>
 
-        <livre isbn="978-1546394075">
-            <titre>Joue-moi du Chopin</titre>
+        <livre isbn="978-1539710882">
+            <titre>Soup Maker Recipe Book: 100 Delicious &amp; Nutritious Soup Recipes </titre>
             <auteurs>
                 <auteur>
-                    <nom>Vox</nom>
-                    <prenom>Max</prenom>
+                    <nom>Green</nom>
+                    <prenom>Liana</prenom>
                 </auteur>
             </auteurs>
             <description>
-                Après un incendie dévastateur, Dale Lusk se présente à la porte de sa sœur
-                avec rien d’autre qu’un caleçon et un imperméable, ayant désespérément besoin de son aide.
-                Ayant perdu à la fois son restaurant et son domicile, Dale se retrouve sans travail,
-                ni endroit pour vivre. Pendant qu’elle pousse son frère à acheter une nouvelle garde-robe
-                pour mieux correspondre à son air de mannequin, Chrissie présente Dale à Al Borkowski.
-                Al est désespérément à la recherche d’un colocataire afin d’éviter que sa grand-mère contrôle
-                davantage sa vie. Chrissie se rend compte, lorsqu’elle réunit les deux hommes,
-                que des étincelles jaillissent et que des changements se profilent dans leur vie.
+                Making your own soup at home is not only rewarding, it’s nutritious and tasty too. By making your own
+                soup you control exactly what goes in.
+                The soup recipes found in this book have been made in a Morphy Richards Soup Maker, but they can easily
+                be made in any other soup maker, or even with a pot on a stove.
+                By including an abundance of healthy ingredients you will do wonders for both your health and well- being.
+                Soups are a fantastic way to lose weight – they are usually high in fibre but low in fat and calories.
+                In fact, I have included the calorie count of each of the 100 soup recipes found in this book.
             </description>
-            <prix devise="euro" type="TTC" tva="5.5">15.59</prix>
+            <prix devise="livre" type="TTC" tva="5.5">4.99</prix>
         </livre>
 
-        <livre isbn="978-1546394075">
-            <titre>Joue-moi du Chopin</titre>
+        <livre isbn="978-1984877499">
+            <titre>A Very Stable Genius: Donald J. Trump's Testing of America</titre>
             <auteurs>
                 <auteur>
-                    <nom>Vox</nom>
-                    <prenom>Max</prenom>
+
                 </auteur>
             </auteurs>
             <description>
-                Après un incendie dévastateur, Dale Lusk se présente à la porte de sa sœur
-                avec rien d’autre qu’un caleçon et un imperméable, ayant désespérément besoin de son aide.
-                Ayant perdu à la fois son restaurant et son domicile, Dale se retrouve sans travail,
-                ni endroit pour vivre. Pendant qu’elle pousse son frère à acheter une nouvelle garde-robe
-                pour mieux correspondre à son air de mannequin, Chrissie présente Dale à Al Borkowski.
-                Al est désespérément à la recherche d’un colocataire afin d’éviter que sa grand-mère contrôle
-                davantage sa vie. Chrissie se rend compte, lorsqu’elle réunit les deux hommes,
-                que des étincelles jaillissent et que des changements se profilent dans leur vie.
+                Washington Post national investigative reporter Carol Leonnig and White House bureau chief Philip Rucker,
+                both Pulitzer Prize winners, provide the definitive insider narrative of Donald Trump's unique presidency
+                with shocking new reporting and insight into its implications.
+
+                “I alone can fix it.” So went Donald J. Trump’s march to the presidency on July 21, 2016, when he accepted
+                the Republican presidential nomination in Cleveland, promising to restore what he described as a fallen
+                nation. Yet over the subsequent years, as he has undertaken the actual work of the commander in chief,
+                it has been hard to see beyond the daily chaos of scandal, investigation, and constant bluster. It would
+                be all too easy to mistake Trump’s first term for one of pure and uninhibited chaos, but there were
+                patterns to his behavior and that of his associates. The universal value of the Trump administration is
+                loyalty - not to the country, but to the president himself - and Trump’s North Star has been the perpetuation
+                of his own power, even when it meant imperiling our shaky and mistrustful democracy.
+
+                Leonnig and Rucker, with deep and unmatched sources throughout Washington, D.C., tell of rages and
+                frenzies but also moments of courage and perseverance. Relying on scores of exclusive new interviews with
+                some of the most senior members of the Trump administration and other firsthand witnesses, the authors
+                reveal the forty-fifth president up close, taking readers inside Robert Mueller’s Russia investigation
+                as well as the president’s own haphazard but ultimately successful legal defense. Here for the first time
+                certain officials who have felt honor-bound not to publicly criticize a sitting president or to divulge
+                what they witnessed in a position of trust tell the truth for the benefit of history.
+
+                This peerless and gripping narrative reveals President Trump at his most unvarnished and exposes how
+                decision making in his administration has been driven by a reflexive logic of self-preservation and
+                self-aggrandizement - but a logic nonetheless. This is the story of how an unparalleled president has
+                scrambled to survive and tested the strength of America’s democracy and its common heart as a nation.
             </description>
-            <prix devise="euro" type="HT" tva="5.5">15.59</prix>
+            <prix devise="dollar" type="TTC" tva="5.5">18.26</prix>
         </livre>
 
-        <livre isbn="978-1546394075">
-            <titre>Joue-moi du Chopin</titre>
+        <livre isbn="0316497541">
+            <titre>The Last Wish: Introducing the Witcher</titre>
             <auteurs>
                 <auteur>
-                    <nom>Vox</nom>
-                    <prenom>Max</prenom>
+                    <nom>Sapkowski</nom>
+                    <prenom>Andrzej</prenom>
                 </auteur>
             </auteurs>
             <description>
-                Après un incendie dévastateur, Dale Lusk se présente à la porte de sa sœur
-                avec rien d’autre qu’un caleçon et un imperméable, ayant désespérément besoin de son aide.
-                Ayant perdu à la fois son restaurant et son domicile, Dale se retrouve sans travail,
-                ni endroit pour vivre. Pendant qu’elle pousse son frère à acheter une nouvelle garde-robe
-                pour mieux correspondre à son air de mannequin, Chrissie présente Dale à Al Borkowski.
-                Al est désespérément à la recherche d’un colocataire afin d’éviter que sa grand-mère contrôle
-                davantage sa vie. Chrissie se rend compte, lorsqu’elle réunit les deux hommes,
-                que des étincelles jaillissent et que des changements se profilent dans leur vie.
+                Geralt is a Witcher, a man whose magic powers, enhanced by long training and a mysterious elixir, have
+                made him a brilliant fighter and a merciless assassin. Yet he is no ordinary murderer: his targets are
+                the multifarious monsters and vile fiends that ravage the land and attack the innocent.
+                But not everything monstrous-looking is evil and not everything fair is good...and in every fairy tale
+                there is a grain of truth.
             </description>
-            <prix devise="euro" type="HT" tva="5.5">15.59</prix>
+            <prix devise="dollar" type="TTC" tva="5.5">17.99</prix>
         </livre>
     </livres>
 </librairie>
