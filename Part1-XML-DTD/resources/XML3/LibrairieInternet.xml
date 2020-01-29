@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE librairie SYSTEM "Librairie.dtd">
+<!DOCTYPE librairie SYSTEM "Librairie.dtd" [
+        <!ENTITY  copyright "&#169;Librairie &#38; Internet 2020" >
+        ]>
 
 <librairie>
     <entete>
         <text>
             <strong>Librairie d'Internet</strong>
             <em>La passion de la lecture</em>
-            &amp;copyright;
+            &copyright;
         </text>
     </entete>
     <livres>

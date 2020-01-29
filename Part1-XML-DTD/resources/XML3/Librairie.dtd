@@ -31,7 +31,7 @@
                 type   (HT | TTC)              "HT"
                 tva                  #FIXED    "5.5">
 
-        <!ENTITY  copyright "&copy;Librairie &amp; Internet 2020" >
+
         <!ENTITY % infosAuteur "(nom, prenom?)" >
         <!ENTITY % contenu     "(#PCDATA | strong | em | img)*" >
 
