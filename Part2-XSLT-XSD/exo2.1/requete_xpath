@@ -1,2 +1,5 @@
 /films/film/titre
 //film[titre="Minority Report"]/resume/text
+//realisateur[last()]
+//film[position() = 2]
+//film/resume/text[contains(text(), "mafia")]
