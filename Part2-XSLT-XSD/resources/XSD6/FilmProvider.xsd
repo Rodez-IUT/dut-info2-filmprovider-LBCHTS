@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="films" type="typeFilms"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- Description balises isolées -->
+    <xs:element name="prenom" />
+    <xs:element name="nom" />
+    <xs:element name="titre" />
+    <xs:element name="text" />
+    <xs:element name="image" />
 
-    <xs:complexType name="typeFilms">
+    <!-- Description noeud racine film -->
+    <xs:element name="films">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="realisateur" maxOccurs="unbounded"/>
+                <xs:element ref="film" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
-    </xs:complexType>
+    <!-- Description noeud fils realisateur -->
+    <xs:element name="realisateur">
+        <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="prenom"/>
+                    <xs:element ref="nom"/>
+                </xs:sequence>
 
+                <!-- Description attribut id_realisateur-->
+                <xs:attribute name="id_realisateur" type="xs:NMTOKEN"
+                use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+
+    <!-- Description noeud fils film -->
+    <xs:element name="film">
+        <!-- a finir-->
+    </xs:element>
 </xs:schema>
