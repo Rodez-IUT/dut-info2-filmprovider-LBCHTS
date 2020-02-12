@@ -34,6 +34,13 @@
 
     <!-- Description noeud fils film -->
     <xs:element name="film">
-        <!-- a finir-->
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="titre"/>
+                <xs:element ref="resume"/>
+            </xs:sequence>
+            <xs:attribute name="id_film" type="xs:NMTOKEN" use="required"/>
+
+        </xs:complexType>
     </xs:element>
 </xs:schema>
