@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fp:films xmlns:fp="http://formationxml/FilmProvider"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://formationxml/FilmProvider FilmProvider2.xsd">
+    <fp:realisateur id_realisateur="real_01">
+        <fp:prenom>Pedro</fp:prenom>
+        <fp:nom>Almodovar</fp:nom>
+    </fp:realisateur>
+    <fp:realisateur id_realisateur="real_02">
+        <fp:prenom>Pedro</fp:prenom>
+        <fp:nom>Almodovar</fp:nom>
+    </fp:realisateur>
+    <fp:film id_film="film_01" id_realisateur="real_01" annee="2005">
+        <fp:titre>Volver</fp:titre>
+        <fp:resume>
+            <fp:text>Une histoire trans-générationnelle</fp:text>
+        </fp:resume>
+    </fp:film>
+</fp:films>

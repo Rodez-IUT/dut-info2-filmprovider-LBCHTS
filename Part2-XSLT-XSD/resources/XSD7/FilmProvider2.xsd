@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://formationxml/FilmProvider"
+    xmlns:fp="http://formationxml/FilmProvider" elementFormDefault="qualified">
+    
+    <xs:element name="films" type="fp:Films">
+        <xs:key name="filmPK">
+            <xs:selector xpath="fp:film"/>
+            <xs:field xpath="@id_film"/>
+        </xs:key>
+        <xs:key name="realPK">
+            <xs:selector xpath="fp:realisateur"/>
+            <xs:field xpath="@id_realisateur"/>
+        </xs:key>
+        <xs:keyref refer="fp:realPK" name="realFK">
+            <xs:selector xpath="fp:film"/>
+            <xs:field xpath="@id_realisateur"/>
+        </xs:keyref>
+    </xs:element>
+    
+    <xs:element name="film" type="fp:Film"/>
+    <xs:element name="realisateur" type="fp:Realisateur"/>
+    
+    <xs:complexType name="Films">
+        <xs:sequence>
+            <xs:element ref="fp:realisateur" maxOccurs="unbounded"/>
+            <xs:element ref="fp:film" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Realisateur">
+        <xs:sequence>
+            <xs:element name="prenom" type="xs:string"/>
+            <xs:element name="nom" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id_realisateur" type="fp:IdRealistaeur"
+            use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="Film">
+        <xs:sequence>
+            <xs:element name="titre" type="xs:string"/>
+            <xs:element name="resume">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="image" minOccurs="0">
+                            <xs:complexType>
+                                <xs:attribute name="source" type="xs:anyURI"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="text" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id_film" type="fp:IdFilm" use="required"/>
+        <xs:attribute name="id_realisateur" type="fp:IdRealistaeur"
+            use="required"/>
+        <xs:attribute name="annee" type="fp:Annee" use="required"/>
+    </xs:complexType>
+    
+    <xs:simpleType name="IdRealistaeur">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="real_\d{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="IdFilm">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="film_\d{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="Annee">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1920"/>
+            <xs:maxExclusive value="2006"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
